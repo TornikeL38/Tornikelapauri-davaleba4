@@ -3,8 +3,9 @@ div.classList.add("conteiner")
 document.body.appendChild(div)
 
 const h1 = document.createElement("h1");
-h1.innerText = "Blog title";
+h1.innerText = "AC MILAN";
 div.appendChild(h1)
+h1.style.color = "red"
 
 const images = document.createElement("img");
 images.src = "img/acm.jpg";
